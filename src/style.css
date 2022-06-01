@@ -1,1 +1,76 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #0e7e12;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carta {
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  margin: 50px auto;
+  display: flex;
+  border-radius: 5%;
+  -webkit-box-shadow: -2px 17px 15px -6px rgba(0, 0, 0, 0.63);
+  box-shadow: -2px 17px 15px -6px rgba(0, 0, 0, 0.63);
+}
+
+.simbolo {
+  font-size: 100px;
+  margin: 0;
+  color: black;
+  margin: 0 20px;
+}
+
+.simbolo-derecha {
+  margin-top: 400px;
+}
+#numero {
+  font-size: 180px;
+  margin: 0;
+}
+
+.div-numero {
+  margin: auto;
+}
+
+.div-button {
+  text-align: center;
+  width: 600px;
+}
+
+.botones {
+  margin: auto 0;
+}
+button {
+  padding: 15px 50px;
+  font-size: 30px;
+  border: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: rgb(27, 57, 228);
+  color: white;
+  margin-top: 50px;
+}
+
+button:hover {
+  background-color: rgb(9, 45, 247);
+}
+
+.color-red {
+  color: red;
+}
+
+.color-black {
+  color: black;
+}
+
+#countdown {
+  font-size: 200px;
+  margin-top: 20px;
+}
